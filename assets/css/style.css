@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Poiret+One&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Raleway+Dots&family=Raleway:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -13,8 +13,35 @@ body {
     color: #3a3a3a;
 }
 
-h1, h2 {
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 120px;
     text-transform: uppercase;
     initial-letter: 4px;
+    color: #3a3a3a;
 }
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+    text-transform: uppercase;
+    initial-letter: 4px;
+    color: #3a3a3a;
+}
+
+#logo {
+    float: left;
+}
+
+/* navigation links */
+#menu {
+    font-size: 100%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
