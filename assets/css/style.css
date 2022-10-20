@@ -15,7 +15,7 @@ body {
 
 h1 {
     font-family: 'Raleway Dots', cursive;
-    font-size: 120px;
+    font-size: 80px;
     text-transform: uppercase;
     initial-letter: 4px;
     color: #3a3a3a;
@@ -34,6 +34,14 @@ h2 {
     text-decoration: none;
 }
 
+#home #logo {
+    margin-bottom: 20px;
+}
+
+.page-header {
+    height: 20vh;	
+}
+
 /* navigation links */
 #menu {
     font-size: 100%;
@@ -46,3 +54,26 @@ h2 {
     margin-right: 20px;
 }
 
+
+
+
+#times {
+    background-image: url();
+    background-repeat: no repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 15%;
+    height: 280px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid #fafafa;
+    box-sizing: border-box;
+}
